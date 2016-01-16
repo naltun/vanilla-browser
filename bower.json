@@ -1,8 +1,10 @@
 {
-    "name": "vanilla browser",
-    "version": "0.0.0",
-    "dependencies": {
-        "bootstrap": "3.3.5",
-        "angular": "1.4.6"
-    }
+  "name": "vanilla browser",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "3.3.5",
+    "angular": "1.4.6",
+    "font-awesome": "fontawesome#~4.5.0",
+    "angular-bootstrap": "~1.0.3"
+  }
 }
