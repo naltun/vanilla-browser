@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="browser">
 
 <head>
     <title>
         vanilla browser
     </title>
-    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 
-<body>
+<body ng-app="main">
 
 
     <div ng-include src="'partials/header.html'"></div>
@@ -42,6 +43,8 @@
     </div>
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-sanitize/angular-sanitize.js"></script>
+    <script src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="js/app.js"></script>
 </body>
 
